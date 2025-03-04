@@ -1,0 +1,31 @@
+<div class="flex flex-col">
+                <img src ="https://atlantic-theme-organic.myshopify.com/cdn/shop/products/WD-100_ad849de8-bf40-44b9-94fe-a9e24dae469b_576x736.jpg?v=1568746105" 
+                alt="card1"
+                class="w-full">
+                <div class="my-2 flex-col">
+                        <p class="font-light">Jameel's</p>
+                        <h5 class="font-medium text-xl">Woody 100ml</h5>
+                        <p class="font-light">14.99 $</p>
+                </div>
+        </div>
+        <div class="flex flex-col">
+                <img src ="https://atlantic-theme-organic.myshopify.com/cdn/shop/products/FR-100_b8a0d5f2-8ad8-4ce2-98d3-32ec3b154776_576x736.jpg?v=1568746134" 
+                alt="card1"
+                class="w-full">
+                <div class="my-2 flex-col">
+                        <p class="font-light">Jameel's</p>
+                        <h5 class="font-medium text-xl">Floral 100ml</h5>
+                        <p class="font-light">12.99 $</p>
+                </div>
+        </div>
+        <div class="flex flex-col">
+                <img src ="https://atlantic-theme-organic.myshopify.com/cdn/shop/products/FL-100_d12037a1-4a51-46cf-bdbc-25e3d2d3eba3_576x736.jpg?v=1568746121" 
+                alt="card1"
+                class="w-full">
+                <div class="my-2 flex-col">
+                        <p class="font-light">Jameel's</p>
+                        <h5 class="font-medium text-xl">Fresh 100ml</h5>
+                        <p class="font-light">18.99 $</p>
+                </div>
+        </div>
+        

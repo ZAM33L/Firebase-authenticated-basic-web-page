@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Document</title>
+</head>
+<body onload="module.getProductData()">
+<header class="flex items-center justify-between py-8 px-16">
+        <div class="flex gap-8">
+        <p>about</p>
+        <p>shop</p>
+        <p>contact</p>
+        <img src="assets/images/logo1.jpeg" alt="logo" class="h-6 flex items-center justify-between">
+
+        </div>
+        <div class="flex items-center gap-8">
+                <h6 class="text-lg hidden" id="greetingSection">Vanakkam , <span id="profileName"></span></h6>
+        </div>
+        <div class="flex gap-8">
+                <i onclick="module.logOut()" id="logoutIcon" class="fa-solid fa-right-from-bracket hidden"></i>
+                <a href="./login.html"><i class="fa-regular fa-user" id="accountIcon"></i></a>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-basket-shopping"></i>
+        </div>
+
+ </header> 
+ <div>
+        <img src="assets/images/cover.jpg" alt="cover">
+ </div>
+ <div class="flex flex-col gap-8 my-16 mx-8">
+        <h1 class="text-3xl font-light text-center">featured products</h1>
+ </div>
+ <div class="grid grid-cols-4 gap-4" id="productData">
+        <!--reusing layout-->
+        <!--reusing layout-->
+ </div>
+ <script>
+        module={};
+ </script>
+ <script type="module" src="./assets/javascript/signup.js"></script>
+ <script>
+        if(localStorage.getItem("fname")){
+                document.getElementById("greetingSection").style.display="block";
+                document.getElementById("logoutIcon").style.display="block";
+                document.getElementById("accountIcon").style.display="none";
+                document.getElementById("profileName").innerHTML=localStorage.getItem("fname");
+        }
+       
+ </script>
+</body>
+</html>
